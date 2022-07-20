@@ -5,7 +5,7 @@ class TwelveDays {
         String res="";
         int number= verseNumber-1;
         String temp="On the "+days[number]+" day of Christmas my true love gave to me: "+verses[number];
-       if(verseNumber==1)
+        if(verseNumber==1)
             return temp+"\n";
         else
         {
